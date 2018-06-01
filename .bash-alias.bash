@@ -8,7 +8,8 @@ alias gp='git pull'
 alias gps='git push'
 alias gc='git commit'
 alias gco='git checkout'
-alias gb='git checkout -b'
+alias gup='git pull --rebase --autostash'
+alias gh='git log --oneline --graph --all --decorate --abbrev-commit'
 
 # spring aliases
 alias sr='bin/rspec'
